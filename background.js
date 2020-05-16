@@ -4,10 +4,10 @@ chrome.webRequest.onBeforeRequest.addListener(
     return {cancel: true}; 
   },
   {urls: 
-    ["*://*.doubleclick.net/*",
-    "*://*.googleadservices.com/*",
-    "*://*.googlesyndication.com/*",
-    "*://*.moat.com/*"]
+   ["https://www.facebook.com/*",
+    "https://www.youtube.com/*",
+    "https://ac.qq.com/*",
+   ]
   },
   ["blocking"]
 );
